@@ -118,7 +118,7 @@ body {
         serif;
 
     font-size:
-        clamp(55px, 9vw, 60px);
+        clamp(55px, 9vw, 40px);
 
     line-height: 0.95;
 
