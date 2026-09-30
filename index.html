@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Love ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts"></div>
+
+
+    <!-- =========================
+         PAGE 1
+    ========================== -->
+
+    <section class="page active" id="page1">
+
+        <div class="hero">
+
+            <p class="small-text">
+                A little something for you
+            </p>
+
+            <h1>
+                Happy Birthday,<br>
+                My Love Jing Yan❤️
+            </h1>
+
+            <p class="subtitle">
+                Welcome
+            </p>
+
+            <button onclick="nextPage()">
+                Start →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PAGE 2
+    ========================== -->
+
+    <section class="page" id="page2">
+
+        <div class="content">
+
+           
+
+            <h2>
+                How Our Story Began
+            </h2>
+
+            <p class="intro">
+                Some stories don't happen all at once.<br>
+                Sometimes, they find their way back to us.
+            </p>
+
+
+            <div class="story">
+
+                <span class="year">
+                    2022
+                </span>
+
+                <h3>
+                    The Beginning
+                </h3>
+
+                <p>
+                    We met for the first time in 2022.
+                    Little did we know that our story
+                    had only just begun.
+                </p>
+
+
+                <span class="year">
+                    2026
+                </span>
+
+                <h3>
+                    We Found Each Other Again
+                </h3>
+
+                <p>
+                    Four years later, in 2026,
+                    we met again. Nice to meet you again
+                </p>
+
+            </div>
+
+
+            <!-- PHOTO AREA -->
+
+            <div class="photo-gallery">
+
+                <div class="photo">
+                    <img src="1.jpg" alt="Our photo">
+                </div>
+
+                <div class="photo">
+                    <img src="2.jpg" alt="Our photo">
+                </div>
+
+                <div class="photo">
+                    <img src="3.jpg" alt="Our photo">
+                </div>
+
+            </div>
+
+
+            <p class="ending-line">
+                Maybe some people are meant to find<br>
+                each other twice. ❤️
+            </p>
+
+
+            <button
+                class="next-btn"
+                onclick="nextPage()">
+                Continue →
+            </button>
+
+        </div>
+
+
+        <button
+            class="back-btn"
+            onclick="previousPage()">
+            ←
+        </button>
+
+    </section>
+
+
+
+    <!-- =========================
+         PAGE 3
+    ========================== -->
+
+    <section class="page" id="page3">
+
+        <div class="content letter-page">
+
+ 
+            <h2>
+                A Letter For You 💌
+            </h2>
+
+
+            <div class="letter">
+
+             <p> 延延 祝你二十二岁生日快乐。好神奇，多年后还能再次相遇，还能再续前缘，我真的觉得是一件很幸运和很不可思议的事情，但凡少一个契机 我们都不会有交集。希望你能因为我的再次出现而感到开心幸福。 </p>
+
+             <p> 我希望你能一直开心。感到压力的时候，可以告诉我，你说过我成为了你的精神支柱，我很荣幸，所以你不要什么事情都自己扛着，也不要总是觉得自己不够好。给自己一点时间，慢慢成长，慢慢变成自己想成为的人。不要因为以前别人说过的话，就开始怀疑自己，否定自己。那些曾经让你难过的话，不代表真正的你，你可以有做得不好的时候。</p>
+
+             <p> 我也不知道未来我们会经历什么，会不会有争吵，会不会有不开心的时候，但我希望我们都可以好好沟通，好好珍惜彼此。还有你要照顾自己，好好休息、好好吃饭，不要总是熬夜，烟也少抽一点。不要总把自己弄得太累，身体最重要。希望新的一岁，你可以少一点烦恼，多一点快乐，愿你所有的眼泪都献给幸福。也希望你想做的事情都可以慢慢实现，想成为的人也可以一步一步成为。</p>
+
+             <p> 再次祝你生日快乐，永远快乐。</p>
+
+             <p> 最后，如果你低头读信的时候，我正在你身旁注视着你。那么当你抬头看向我时，你就可以拥抱我了。</p>
+
+
+                <p class="signature">
+
+                    
+                    <span>
+                        yixin
+                    </span>
+
+                </p>
+
+            </div>
+
+
+            <button
+                class="next-btn"
+                onclick="nextPage()">
+
+                One Last Thing →
+
+            </button>
+
+        </div>
+
+
+        <button
+            class="back-btn"
+            onclick="previousPage()">
+
+            ←
+
+        </button>
+
+    </section>
+
+
+
+    <!-- =========================
+         PAGE 4
+    ========================== -->
+
+    <section class="page" id="page4">
+
+        <div class="final-page">
+
+            <p class="small-text">
+                Before you go...
+            </p>
+
+            <h2>
+                One Last Thing 🎁
+            </h2>
+
+
+            <div
+                class="gift"
+                onclick="openGift()">
+
+                <div class="gift-lid"></div>
+
+                <div class="gift-box">
+                    🎁
+                </div>
+
+            </div>
+
+
+            <p
+                id="gift-text"
+                class="gift-message">
+
+                Tap the gift to open it ❤️
+
+            </p>
+
+
+            <div
+                id="final-message"
+                class="hidden">
+
+                <h3>
+                    Happy Birthday, Baby ❤️
+                </h3>
+
+                <p>
+                    I hope you know how special
+                    you are to me.
+                </p>
+
+                <p>
+                    Here's to us,<br>
+                    and all the chapters yet to come.
+                </p>
+
+                <div class="big-heart">
+                    ♥
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <button
+            class="back-btn"
+            onclick="previousPage()">
+
+            ←
+
+        </button>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
